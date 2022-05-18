@@ -36,13 +36,13 @@ class syllables:
     def __init__(self, sentence, lang = "one") -> None:
         self.F = sentence
         if lang == "one":
-            return self.one()
+            self.one()
         elif lang == "ita":
-            return self.ita()
+            self.ita()
         elif lang == "jpn":
-            return self.jpn()
+            self.jpn()
         elif lang == "eng":
-            return self.eng()
+            self.eng()
         else:
             raise Error("LANGUAGE::NOT::FOUND")
 
